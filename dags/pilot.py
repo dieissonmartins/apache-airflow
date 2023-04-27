@@ -12,7 +12,7 @@ dag = DAG(
     "piloto",
     description="Primeira DAG de teste",
     default_args=default_args,
-    schedule="1 * * * *",
+    schedule="*/1 * * * *",
     tags=['primeira', 'teste'],
     catchup=False,
     start_date=datetime(2023, 4, 26)
