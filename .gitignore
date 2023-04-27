@@ -1,6 +1,2 @@
 .idea
-spark
-ngrok-stable
-ngrok-stable
-*.pyc
-tmp/*.csv
+logs
